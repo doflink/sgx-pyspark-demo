@@ -1,14 +1,3 @@
-#
-# Access to this file is granted under the SCONE SOURCE CODE LICENSE V1.0 
-#
-# Commercial use of any product using this file requires a commercial 
-# license from scontain UG, www.scontain.com.
-#
-# also see https://sconedocs.github.io
-#
-# Copyright (C) 2019 Scontain UG
-#
-
 from __future__ import print_function
 
 import sys, time
