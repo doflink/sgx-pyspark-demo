@@ -36,6 +36,7 @@ Export environment variables
 ```bash
 export SCONE_FSPF_KEY=$(cat input/keytag | awk '{print $11}')
 export SCONE_FSPF_TAG=$(cat input/keytag | awk '{print $9}')
+export SCONE_FSPF=/fspf/encrypted-files/volume.fspf
 ```
 
 Now, run the wordcount application with SGX-PySpark.
