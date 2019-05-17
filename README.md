@@ -7,6 +7,7 @@ This repository contains SGX-PySpark demo.
 [SGX-PySpark demo](https://youtu.be/yI3iEFWUWbU)
 
 ## Details
+First, please shoot us (info@scontain.com) an email providing your Docker ID to get access to the Docker image: `sconecuratedimages/www2019:sgx-pyspark`
 
 Try it out by executing:
 
@@ -15,7 +16,7 @@ git clone https://github.com/doflink/sgx-pyspark-demo && cd sgx-pyspark-demo
 ```
 
 ```bash
-docker run -it --rm -v `pwd`:/fspf  --privileged -p 8080:8080 -p 6868:6868 -p 28778:28778 lequocdo/google-c3:pyspark sh
+docker run -it --rm -v `pwd`:/fspf  --privileged -p 8080:8080 -p 6868:6868 -p 28778:28778 sconecuratedimages/www2019:sgx-pyspark sh
 ```
 
 Go to the demo directory:
